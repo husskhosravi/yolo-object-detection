@@ -107,3 +107,6 @@ Detected 3 objects in street.jpg
 - ultralytics
 - OpenCV
 - NumPy
+- Pillow
+- PyTorch
+- TorchVision

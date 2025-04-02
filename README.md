@@ -1,19 +1,19 @@
-# YOLO Object Detection
+# 🔍 YOLO Object Detection
 
 A clean, simple Python implementation for performing object detection on images using YOLOv8.
 
 ![Object Detection Example](docs/example.jpg)
 
-## Key Features
+## ✨ Key Features
 
-- 🔍 Fast and accurate object detection using YOLOv8
-- 🖼️ Works with individual images or entire folders
+- 🚀 Fast and accurate object detection using YOLOv8
+- 📁 Works with individual images or entire folders
 - 📊 Shows detection confidence scores
-- 🎯 Customisable confidence threshold
-- 💻 Support for CPU/GPU inference
-- 🔧 Minimal dependencies
+- 🎚️ Customisable confidence threshold
+- 🖥️ Support for CPU/GPU inference
+- 📦 Minimal dependencies
 
-## Installation
+## 📥 Installation
 
 1. Clone this repository:
    ```bash
@@ -32,7 +32,7 @@ A clean, simple Python implementation for performing object detection on images 
    pip install -r requirements.txt
    ```
 
-## Usage
+## 🚀 Usage
 
 ### Basic Usage
 
@@ -64,7 +64,7 @@ python object_detector.py --input path/to/image.jpg --model yolov8m.pt
 python object_detector.py --input path/to/image.jpg --device 0
 ```
 
-## Arguments
+## ⚙️ Arguments
 
 | Argument | Description | Default |
 |----------|-------------|---------|
@@ -74,7 +74,7 @@ python object_detector.py --input path/to/image.jpg --device 0
 | `--conf` | Confidence threshold | 0.25 |
 | `--device` | Device to run inference on (e.g., 'cpu', '0' for GPU) | (Auto) |
 
-## Output
+## 📋 Output
 
 The script will:
 1. Process each image through the YOLOv8 model
@@ -82,7 +82,7 @@ The script will:
 3. Save annotated images to the output directory
 4. Print detection information to the console
 
-## Example Output
+## 📝 Example Output
 
 ```
 Loading YOLOv8 model: yolov8n.pt
@@ -92,7 +92,7 @@ Detected 3 objects in street.jpg
   dog: 0.65
 ```
 
-## Future Improvements
+## 🔮 Future Improvements
 
 - [ ] Add video processing capabilities
 - [ ] Implement real-time webcam detection
@@ -102,15 +102,15 @@ Detected 3 objects in street.jpg
 - [ ] Implement batch processing with multiprocessing
 - [ ] Add support for custom trained models
 
-## Requirements
+## 🛠️ Requirements
 
 - Python 3.8+
 - ultralytics
 - OpenCV
 - NumPy
 
-## About
+## 👤 About
 
 Created by [Hussein Khosravi](https://github.com/husskhosravi)
 
-This project demonstrates computer vision and object detection skills using the YOLOv8 object detection model from Ultralytics.
+This is my personal project that demonstrates computer vision and object detection skills using the YOLOv8 object detection model from Ultralytics.

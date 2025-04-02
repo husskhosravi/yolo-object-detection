@@ -2,7 +2,6 @@
 
 A clean, simple Python implementation for performing object detection on images using YOLOv8.
 
-![Object Detection Example](docs/example.jpg)
 
 ## ✨ Key Features
 
@@ -108,9 +107,3 @@ Detected 3 objects in street.jpg
 - ultralytics
 - OpenCV
 - NumPy
-
-## 👤 About
-
-Created by [Hussein Khosravi](https://github.com/husskhosravi)
-
-This is my personal project that demonstrates computer vision and object detection skills using the YOLOv8 object detection model from Ultralytics.
